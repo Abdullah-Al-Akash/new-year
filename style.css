@@ -54,6 +54,11 @@ p {
         width: 75%;
 }
 
+.image {
+        display: flex;
+        justify-content: center;
+}
+
 .content {
         padding: 0 5%;
 }
@@ -90,15 +95,15 @@ p {
         width: 50%;
 }
 
-.mission {
+#mission {
         background-color: rgb(237, 245, 246);
 }
 
-.vission {
+#vission {
         background-color: rgb(255, 238, 238);
 }
 
-.goals {
+#goals {
         background-color: rgb(255, 244, 214);
 }
 
