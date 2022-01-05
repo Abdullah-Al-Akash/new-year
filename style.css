@@ -1,19 +1,27 @@
 body {
         font-family: 'Poppins', sans-serif;
-        /* width: 100%; */
         box-sizing: border-box;
+        margin: 0;
+        padding: 0;
 }
 
 h1 {
         font-size: 3em;
 }
 
-.container {
+.display-flex {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
+}
+
+.section-title {
+        text-align: center;
+}
+
+.container {
         margin: 0 auto;
-        width: 80%;
+        margin-bottom: 100px;
+        width: 90%;
 }
 
 .half-width {
@@ -22,5 +30,74 @@ h1 {
 }
 
 .half-width img {
-        width: 80%;
+        width: 75%;
+}
+
+.content {
+        padding: 0 5%;
+}
+
+/* Brand Button */
+.brand-btn {
+        text-decoration: none;
+        color: white;
+        padding: 10px 40px;
+        background-image: linear-gradient(tomato, orangered);
+        border-radius: 10px;
+}
+
+/* Card Section Style */
+.card-section {
+        display: flex;
+
+}
+
+.card {
+        width: 30%;
+        box-shadow: 10px 10px 30px rgb(180, 172, 172);
+        margin: 1%;
+        padding: 20px;
+        border-radius: 15px;
+        margin-bottom: 50px;
+}
+
+.card img {
+        width: 50%;
+}
+
+.mission {
+        background-color: rgb(237, 245, 246);
+}
+
+.vission {
+        background-color: rgb(255, 238, 238);
+}
+
+.goals {
+        background-color: rgb(255, 244, 214);
+}
+
+
+
+/* Footer Style */
+footer {
+        height: 300px;
+        text-align: center;
+        background: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+footer h1 {
+        font-family: 'Lobster', cursive;
+        color: white;
+}
+
+footer .year {
+        color: orangered;
+}
+
+footer p {
+        color: gray;
 }
