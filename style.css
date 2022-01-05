@@ -5,8 +5,28 @@ body {
         padding: 0;
 }
 
+.brand-color {
+        color: orangered;
+}
+
+.headline h1 {
+        font-size: 3.5em;
+}
+
 h1 {
-        font-size: 3em;
+        font-size: 2.5em;
+        line-height: 2rem;
+}
+
+p {
+        color: rgb(88, 84, 84);
+}
+
+.headline {
+        padding-left: 10px;
+        font-family: 'Source Serif Pro', serif;
+        line-height: 2.5rem;
+        border-left: 5px solid orangered;
 }
 
 .display-flex {
@@ -16,6 +36,7 @@ h1 {
 
 .section-title {
         text-align: center;
+        margin-bottom: 75px;
 }
 
 .container {
@@ -38,11 +59,15 @@ h1 {
 }
 
 /* Brand Button */
+.btn {
+        margin: 30px 0;
+}
+
 .brand-btn {
         text-decoration: none;
         color: white;
         padding: 10px 40px;
-        background-image: linear-gradient(tomato, orangered);
+        background-image: linear-gradient(rgb(250, 115, 91), orangered);
         border-radius: 10px;
 }
 
@@ -77,7 +102,18 @@ h1 {
         background-color: rgb(255, 244, 214);
 }
 
+/*Form Style  */
+input {
+        width: 70%;
+        margin: 5px 20px;
+        padding: 10px;
+        border-radius: 5px;
+}
 
+.input-msg {
+        width: 70%;
+        padding: 10px 10px 150px 10px;
+}
 
 /* Footer Style */
 footer {
@@ -92,11 +128,9 @@ footer {
 footer h1 {
         font-family: 'Lobster', cursive;
         color: white;
+        font-size: 2.5rem;
 }
 
-footer .year {
-        color: orangered;
-}
 
 footer p {
         color: gray;
