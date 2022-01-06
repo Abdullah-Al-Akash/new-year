@@ -120,6 +120,11 @@ input {
         padding: 10px 10px 150px 10px;
 }
 
+.contact-btn {
+        margin: 5px 20px;
+        padding-top: 10px;
+}
+
 /* Footer Style */
 footer {
         height: 300px;
@@ -140,3 +145,5 @@ footer h1 {
 footer p {
         color: gray;
 }
+
+/* Complete CSS */
