@@ -1,1 +1,1 @@
-![Mission 2023](https://ibb.co/BjqKhYK)
+<img src="https://ibb.co/BjqKhYK" alt="">
