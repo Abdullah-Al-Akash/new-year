@@ -4,6 +4,7 @@
         box-sizing: border-box;
 }
 
+/* Banner Section */
 .banner{
         height: 100vh;
         background-image: url("/images/banner/banner1.png");
@@ -39,6 +40,7 @@
         color: white
 }
 
+/* Middle Section */
 .middle-headline{
         font-size: 26px;
         font-weight: bold;
@@ -57,4 +59,26 @@
 .middle-summary{
         padding-top: 15px;
         line-height: 27px;
+}
+
+/* Planning Section */
+.plan-title{
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;  
+        padding-bottom: 50px;
+}
+.planning{
+        margin-top: 80px;
+}
+
+.single-plan{
+        text-align: center;
+        line-height: 1.8em;
+        padding: 10px 65px;
+}
+
+.planning-details{
+        display: flex;
+        justify-content: center;
 }
