@@ -38,3 +38,23 @@
         font-weight: bold;
         color: white
 }
+
+.middle-headline{
+        font-size: 26px;
+        font-weight: bold;
+}
+.middle-section{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+.image{
+        height: 80%;
+        width: 80%;
+}
+.middle-summary{
+        padding-top: 15px;
+        line-height: 27px;
+}
